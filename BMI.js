@@ -2,6 +2,7 @@ function bmi(height,weight){
     height /= 100;
     height *= height;
     var bmiValue = weight/height;
+    console.log(bmiValue);
     if (bmiValue <= 18.5){
         return "undervægtig";
     }
@@ -21,4 +22,4 @@ function bmi(height,weight){
 
 
 
-console.log(bmi(170,50));
+console.log(bmi(152,62));

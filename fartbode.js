@@ -21,4 +21,5 @@ function comparing(allowed, speed, work) {
             return "bøde er " + array[strafe][2] * 2 + "kr du kørte " + speed + "km/t og " + array[strafe][3];
         }
     }
+}
 console.log(comparing(50, 90, "ja"));
